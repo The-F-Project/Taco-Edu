@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".list9lass">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView2"
+        android:layout_width="408dp"
+        android:layout_height="891dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="snow.json"
+        app:lottie_loop="true" />
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="119dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/russo_one"
+        android:text="Обновления"
+        android:textColor="@color/buttontextcolor"
+        android:textSize="10sp"
+        app:backgroundTint="@color/buttons"
+        app:cornerRadius="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.996" />
+
+    <Button
+        android:id="@+id/prdmet"
+        android:layout_width="119dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/russo_one"
+        android:text="Предметы"
+        android:textColor="@color/buttontextcolor"
+        android:textSize="10sp"
+        app:backgroundTint="@color/buttons"
+        app:cornerRadius="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.996" />
+
+
+    <Button
+        android:id="@+id/reshebnik"
+        android:layout_width="119dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/russo_one"
+        android:text="ГДЗ"
+        android:textColor="@color/buttontextcolor"
+        app:backgroundTint="#5089B8"
+        app:cornerRadius="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.996" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="171dp"
+        android:layout_height="77dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="#5089B8"
+        android:fontFamily="@font/russo_one"
+
+        android:text="Геометрия"
+        android:textColor="@color/buttontextcolor"
+
+        android:textSize="16sp"
+        app:backgroundTint="@color/buttons"
+        app:cornerRadius="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.224" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="171dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="#5089B8"
+        android:fontFamily="@font/russo_one"
+        android:text="Алгебра"
+        android:textColor="@color/buttontextcolor"
+        android:textSize="16sp"
+        app:backgroundTint="@color/buttons"
+        app:cornerRadius="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.224" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="171dp"
+        android:layout_height="77dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="#5089B8"
+        android:fontFamily="@font/russo_one"
+        android:text="Английский язык"
+        android:textColor="@color/buttontextcolor"
+
+
+        android:textSize="16sp"
+        app:backgroundTint="@color/buttons"
+        app:cornerRadius="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.359" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="171dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="#5089B8"
+        android:fontFamily="@font/russo_one"
+        android:text="Химия"
+
+        android:textColor="@color/buttontextcolor"
+        android:textSize="16sp"
+        app:backgroundTint="@color/buttons"
+        app:cornerRadius="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.359" />
+
+    <Button
+        android:id="@+id/buttonh"
+        android:layout_width="171dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="#5089B8"
+        android:fontFamily="@font/russo_one"
+        android:text="История"
+
+        android:textColor="@color/buttontextcolor"
+        android:textSize="16sp"
+        app:backgroundTint="@color/buttons"
+        app:cornerRadius="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="171dp"
+        android:layout_height="77dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="#5089B8"
+        android:fontFamily="@font/russo_one"
+        android:text="Русский язык"
+        android:textColor="@color/buttontextcolor"
+
+        android:textSize="16sp"
+        app:backgroundTint="@color/buttons"
+        app:cornerRadius="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="171dp"
+        android:layout_height="77dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="#5089B8"
+        android:fontFamily="@font/russo_one"
+        android:text="География"
+        android:textColor="@color/buttontextcolor"
+
+        android:textSize="16sp"
+        app:backgroundTint="@color/buttons"
+        app:cornerRadius="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.628" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="171dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="#5089B8"
+
+        android:fontFamily="@font/russo_one"
+        android:text="Физика"
+
+        android:textColor="@color/buttontextcolor"
+        android:textSize="16sp"
+        app:backgroundTint="@color/buttons"
+        app:cornerRadius="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="171dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="#5089B8"
+
+        android:fontFamily="@font/russo_one"
+        android:text="Белорусский язык"
+
+        android:textColor="@color/buttontextcolor"
+        android:textSize="16sp"
+        app:backgroundTint="@color/buttons"
+        app:cornerRadius="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings">
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView6"
+        android:layout_width="411dp"
+        android:layout_height="874dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="snow.json"
+        app:lottie_loop="true" />
+
+
+
+
+
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="-30dp">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:layout_width="149dp"
+            android:layout_height="110dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.102"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="diagram3.json"
+            app:lottie_loop="true" />
+
+        <TextView
+
+            android:id="@+id/cache"
+            android:fontFamily="@font/russo_one"
+            android:textColor="@color/buttontextcolor"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="16dp"
+
+            android:text="Данные и память"
+
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/cacheSizeTextView"
+            android:fontFamily="@font/russo_one"
+            android:textColor="@color/buttontextcolor"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="16dp"
+
+            android:text="Используемая память: 0 МБ"
+
+            android:textSize="16sp" />
+
+        <Button
+
+            android:id="@+id/clearCacheButton"
+
+
+            android:text="Очистить кэш"
+            android:layout_width="171dp"
+
+            android:layout_height="77dp"
+
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/buttontextcolor"
+            android:backgroundTint="#5089B8"
+            android:fontFamily="@font/russo_one"
+
+            android:textSize="12sp"
+
+            app:cornerRadius="8dp" />
+
+
+        <LinearLayout
+            android:layout_width="396dp"
+            android:layout_height="246dp"
+            android:orientation="vertical">
+
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animationView7"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.024"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="up.json"
+                app:lottie_loop="true" />
+
+            <TextView
+
+                android:id="@+id/upds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+
+                android:fontFamily="@font/russo_one"
+
+                android:text="Проверка обновлений"
+
+                android:textColor="@color/buttontextcolor"
+
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/updsdf"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/russo_one"
+                android:text="Обновления исправляют ошибки, добавляют новые функции и расширяют имеющиеся"
+                android:textColor="@color/buttontextcolor"
+
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/upd"
+                android:layout_width="171dp"
+
+                android:layout_height="77dp"
+
+                android:layout_marginEnd="5dp"
+                android:backgroundTint="#5089B8"
+                android:fontFamily="@font/russo_one"
+
+                android:text="Проверка обновления"
+                android:textColor="@color/buttontextcolor"
+
+                app:cornerRadius="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.511"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.481" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="396dp"
+            android:layout_height="246dp"
+            android:orientation="vertical">
+
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animationView8"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.024"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="error.json"
+                app:lottie_loop="true" />
+
+            <TextView
+
+                android:id="@+id/report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+
+                android:fontFamily="@font/russo_one"
+
+                android:text="Нашли ошибку?"
+
+                android:textColor="@color/buttontextcolor"
+
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/updsdft"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/russo_one"
+                android:text="Сообщите об ней на нашем github. И она будет исправлена в ближайшее время"
+                android:textColor="@color/buttontextcolor"
+
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/reportt"
+                android:layout_width="171dp"
+
+                android:layout_height="77dp"
+
+                android:layout_marginEnd="5dp"
+                android:backgroundTint="#5089B8"
+                android:fontFamily="@font/russo_one"
+
+                android:text="Сообщение об ошибки"
+                android:textColor="@color/buttontextcolor"
+
+                app:cornerRadius="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.511"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.481" />
+        </LinearLayout>
+        н
+
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

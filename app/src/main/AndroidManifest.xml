@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/pngtree_taco_logo_cartoon_illustration_png_image_6509039_1085823480"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/pngtree_taco_logo_cartoon_illustration_png_image_6509039_1085823480"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Taco"
+        tools:targetApi="31">
+        <activity
+            android:name=".settings"
+            android:exported="false" />
+        <activity
+            android:name=".NoInstallApp"
+            android:exported="false" />
+        <activity
+            android:name=".list10th"
+            android:exported="false" />
+        <activity
+            android:name=".list"
+            android:exported="false" />
+        <activity
+            android:name=".list9lass"
+            android:exported="false" />
+        <activity
+            android:name=".geography10"
+            android:exported="false" />
+        <activity
+            android:name=".history10"
+            android:exported="false" />
+        <activity
+            android:name=".himia10"
+            android:exported="false" />
+        <activity
+            android:name=".updater"
+            android:exported="false" />
+        <activity
+            android:name=".belmova10"
+            android:exported="false" />
+        <activity
+            android:name=".english10"
+            android:exported="false" />
+        <activity
+            android:name=".geometrya10"
+            android:exported="false" />
+        <activity
+            android:name=".Russian10"
+            android:exported="false" />
+        <activity
+            android:name=".Algebra10"
+            android:exported="false" />
+        <activity
+            android:name=".resha10"
+            android:exported="false" />
+        <activity
+            android:name=".mico"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

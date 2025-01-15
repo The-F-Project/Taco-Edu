@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".updater">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="snow.json"
+        app:lottie_loop="true" />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView3"
+        android:layout_width="163dp"
+        android:layout_height="180dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="d3.json"
+        app:lottie_loop="true" />
+
+
+    <Switch
+
+        android:id="@+id/branchSwitch"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/russo_one"
+        android:text="Проверять бета-версии"
+        android:textColor="@color/buttontextcolor"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/animationView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/upd"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <Button
+        android:id="@+id/upd"
+        android:layout_width="171dp"
+
+        android:layout_height="77dp"
+
+        android:layout_marginEnd="5dp"
+
+        android:backgroundTint="#5089B8"
+
+        android:fontFamily="@font/russo_one"
+        android:text="Проверка обновлений"
+        android:textColor="@color/buttontextcolor"
+        app:backgroundTint="#A12F3031"
+        app:cornerRadius="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.478" />
+
+
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="363dp"
+        android:layout_height="52dp"
+        android:textColor="@color/buttontextcolor"
+        android:text=""
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/upd"
+        app:layout_constraintVertical_bias="0.616" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
